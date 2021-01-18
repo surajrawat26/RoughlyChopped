@@ -1,0 +1,383 @@
+
+
+body{
+
+font-family: Montserrat,sans-serif;
+background:  #A6E5BB;
+overflow-x:hidden;
+overflow-y: scroll;
+}
+.ContBody{
+
+  padding-bottom: 10%;
+}
+
+
+
+
+.nav-link{
+
+  font-family: Montserrat,sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.7vh;
+
+
+}
+
+
+.img-logo{
+
+max-width: 65%;
+height: auto;
+
+
+
+}
+.headingWrapper{
+  padding-top: 5%;
+
+
+
+
+}
+.headingMain{
+
+  font-family: Montserrat,sans-serif;
+  font-weight: 900;
+  font-size: 8vw;
+  color: #fff;
+
+}
+
+.ParaMain{
+
+  font-family: Montserrat,sans-serif;
+  font-weight: 300;
+  padding-top: 7%;
+  padding-bottom: 9%;
+  color:  #fff;
+  font-size: 24px;
+
+}
+
+.mainBtn{
+
+  background: #f6416c;
+  border-color: #f6416c;
+
+  color: #fff;
+  width: 200px;
+  height: 70px;
+ font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+
+}
+.mainBtn:hover{
+  background-color: #CC516A;
+  border-color:#CC516A;
+}
+
+.mainImageBlock{
+
+
+padding-top: 5%;
+margin-top: 51px;
+
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+.ParaMain{
+font-size: 22px;
+
+}
+
+.mainImageBlock{
+
+  position: absolute;
+  z-index: 4;
+  margin-right: 100px;
+  width: 60%;
+  margin-bottom: 100px;
+
+}
+
+.headingWrapper{
+  margin-top: 500px;
+}
+
+.foody{
+
+
+width: 80%;
+height: auto;
+
+
+
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+.ParaMain{
+font-size: 20px;
+
+}
+.mainBtn{
+
+
+  width: 150px;
+  height: 70px;
+  font-size: 1.2rem;
+
+}
+
+.mainImageBlock{
+
+  position: absolute;
+
+
+text-align: center;
+
+
+  width: 60%;
+  margin-bottom: 100px;
+}
+#navbarText{
+
+  color: #fff;
+}
+.Copyright{
+font-size: 10px;
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+.ParaMain{
+font-size: 16px;
+
+}
+.mainImageBlock{
+
+  position: absolute;
+
+margin-top: 10%;
+width: 55%;
+text-align: center;
+margin-left: 25%;
+}
+.headingWrapper{
+  margin-top: 400px;
+  margin-left: 8%;
+  text-align: center;
+}
+.mainBtn{
+
+
+
+  width: 140px;
+  height: 50px;
+font-size: 1rem;
+
+}
+.loginImage{
+
+text-align: center;
+}
+.Food{
+
+  margin-left: 20px;
+}
+.foody{
+  margin-left: 52px;
+}
+.loginBtn{
+  margin-top: 5%;
+}
+
+.footerIcons{
+text-align: center;
+}
+.footerContainer{
+  width:100%;
+  height:auto;
+}
+
+}
+@media only screen and (max-width: 500px) {
+  .headingWrapper{
+    padding-top: 3%;
+    margin-top: 250px;
+  }
+  .Login-box{
+    width: 70%;
+    height: auto;
+  }
+.Login-box{
+  width: 716px;
+  height: 560px;
+}
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////Login///////////////////////////////////////////////// */
+
+
+
+
+
+.Login-box{
+
+  box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top:5%;
+  margin-bottom: 5%;
+  border-radius: 28px;
+  font-family: Montserrat,sans-serif;
+  background-color: #fff;
+  width: 716px;
+  height: 650px;
+}
+
+.loginHeading{
+
+  font-weight: bold;
+  padding-left: 8%;
+  color: #797777;
+}
+
+
+.loginImage{
+
+margin-top: 15%;
+width: 90%;
+height: auto;
+
+
+}
+
+
+.LoginForm{
+margin : 10% 8% 8% 8%;
+font-weight:500;
+color: #797777;
+ font-size:.8rem;
+}
+
+
+.loginBtn{
+
+background: #A6E5BB;
+border-color: #A6E5BB;
+
+  color: #fff;
+  width: 80px;
+  height: 40px;
+  font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+
+
+
+}
+.loginBtn:hover{
+
+  background: #93BBA1;
+  border-color: #93BBA1;
+}
+.loginBtn:visited{
+
+  background: #93BBA1;
+  border-color: #93BBA1;
+}
+.form-control{
+
+margin-bottom: 3%;
+
+}
+
+
+
+
+
+
+
+
+/* foote */
+
+
+.Copyright{
+
+
+
+  margin-top:12px;
+  color:#fff;
+   font-family:Montserrat,sans-serif;
+   font-Weight:300;
+   font-size:14px;
+   justify-content: center;
+   margin-left: 45px;
+}
+
+
+.footerIcons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+list-style: none;
+padding-top: 2%;
+padding-bottom: 2%;
+
+
+
+}
+
+.footerContainer{
+
+  background:#455A64;
+  width:100%;
+  height:auto;
+  border-bottom:2px;
+  border-bottom-style: solid;
+
+}
+
+.instagram:hover{
+filter: invert(0.3) sepia(1) saturate(7.5) hue-rotate(288deg) brightness(1);
+}
+.twitter:hover{
+  filter: invert(0.3) sepia(1) saturate(17.5) hue-rotate(176.4deg) brightness(1);
+}
+.facebook:hover{
+
+  filter: invert(0.39) sepia(1) saturate(20) hue-rotate(176.4deg) brightness(0.71);
+
+}
+
+  /* carousel */
+
+
+.MovingImages{
+
+font-family: Montserrat,sans-serif;
+font-weight: 800;
+color: #455A64;
+
+
+
+}
